@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+     align-items: center;
+    align-content: center; 
+    background-color: #252525;
+    color: #ffffff;
+    text-align: center;
+}
+.buttonsDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.header{
+    padding: 5% 5% 0%;
+}
+.button,.stop{
+    display: none;
+}
+.see{
+    display: flex;
+    width: 80px;
+    padding: 39%;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: none;
+    background-color: #774360;
+    color:#FFB562 ;
+    transition: all 0.5s ease;
+}
+.buttonsAct{
+    display: flex;
+    justify-content: space-around;
+}
+.buttonsAct div {
+    margin-inline: 20px;
+}
+#start{
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    /* background: rgb(161,140,209);
+    background: -moz-linear-gradient(90deg, rgba(161,140,209,1) 0%, rgba(251,194,235,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(161,140,209,1) 0%, rgba(251,194,235,1) 100%);
+    background: linear-gradient(90deg, rgba(161,140,209,1) 0%, rgba(251,194,235,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a18cd1",endColorstr="#fbc2eb",GradientType=1); */
+    background: linear-gradient(90deg, #e8a0bf, #e39fbf, #de9ebf, #d89dbe, #d39cbd, #ce9bbc, #c99abb, #c499ba);
+    font-family: 'Poppins', sans-serif;
+    color: #FEFBF6;
+    transition: all 0.5s ease;
+    margin-left: -165px;
+}
+header h1{
+    color: #FCE2DB;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 400;
+    
+}
+#start:hover,#start:focus{
+    /* -webkit-box-shadow: 0px 0px 12px -1px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 12px -1px rgba(255,255,255,1);
+    box-shadow: 0px 0px 12px -1px rgba(255,255,255,1); */
+    -webkit-box-shadow: 0px 0px 8px -1px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 8px -1px rgba(255,255,255,1);
+    box-shadow: 0px 0px 8px -1px rgba(255,255,255,1);
+}
+#result{
+    padding-top: 8%;
+}
+#result,#player,#computer,#score{
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 2%;
+    color: #FEF9A7;
+}
+.see:hover{
+    background-color: #ffffff;
+    color: #774360;
+}
+#FCE2DB
+#FF8787
+#FFD1D1
+E8A0BF
